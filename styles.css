@@ -183,14 +183,42 @@ h1 {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
     position: fixed;
     bottom: 0;
     background-image: -webkit-gradient(linear,left top,right top,from(#af2896),to(#509bf5));
 	background-image: linear-gradient(90deg,#af2896,#509bf5);
     margin: 12px;
-}
-
-.footer__content {
     padding: 12px;
+    align-items: center
 }
 
+.footer__content .title, .subtitle {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+.footer__content .title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footer__content .subtitle {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer button {
+    font-size: 15px;
+	font-weight: 700;
+	border-radius: 30px;
+    height: 50px;
+    border: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+    width: 180px;
+}
