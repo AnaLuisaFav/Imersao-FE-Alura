@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -16,20 +18,20 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="assets/icons/logo-spotify.png" alt="logo do spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
                 <ul>
                     <li>
                         <a href="">
                             <span class="fa fa-home"></span>
-                            <span>Início</span>
+                            <span class="text__navigation">Início</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="fa fa-search"></span>
-                            <span>Buscar</span>
+                            <span class="text__navigation">Buscar</span>
                         </a>
                     </li>
                 </ul>
@@ -54,8 +56,29 @@
                 </div>
             </section>
 
+            <section class="section-podcast">
+                <div class="section-podcast__content">
+                    <span class="text title">Que tal seguir um podcast novo?</span>
+                    <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+                    <button class="section-podcast__button">
+                        <span>Explore podcasts</span>
+                    </button>
+                </div>
+            </section>
+
             <div class="cookies">
-                <a href="">Cookies</a>
+                <div class="infos">
+                    <div><a href="">Legal</a></div>
+                    <div><a href="">Centro de Privacidade</a></div>
+                    <div><a href="">Política de privacidade</a></div>
+                    <div><a href="">Cookies</a></div>
+                    <div><a href="">Sobre anúncios</a></div>
+                    <div><a href="">Acessibilidade</a></div>
+                    <div><a href="">Acessibilidade</a></div>
+                    <div><a href="">Notice at Collection</a></div>
+                    <div><a href="">Your Privacy Choices</a></div>
+                </div>
+                <div><a href="" class="cookies-bigger">Cookies</a></div>
             </div>
 
             <div class="languages">
@@ -66,6 +89,41 @@
             </div>
         </div>
     </div>
+
+    <main>
+       <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="" />
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="" />
+                </button>
+        
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="" />
+                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    placeholder="O que você quer ouvir?" value="" />
+                </div>
+                </div>
+        
+                <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+                </div>
+            </nav>
+
+            <!-- <div class="main-sections">
+                <h1>Navegar por todas as seções</h1>
+                <div class="musical-styles">
+                    <div class="bg podcasts"><span>Podcasts</span></div>
+                    <div class="bg events"><span>Eventos ao vivo</span></div>
+                    <div class="bg foryou"><span>Feito pra você</span></div>
+                </div>
+            </div> -->
+       </div> 
+    </main>
 
     <footer>
         <div class="footer__content">
