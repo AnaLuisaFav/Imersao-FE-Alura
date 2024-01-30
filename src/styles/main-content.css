@@ -154,7 +154,7 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 12px;
+    gap: 11px;
     margin-bottom: 16px;
   }
   
