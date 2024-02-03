@@ -1,3 +1,7 @@
+* {
+  transition: all 0.5s ease;
+}
+
 .main-container {
     max-width: 80vw;
     height: 100vh;
