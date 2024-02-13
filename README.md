@@ -1,6 +1,6 @@
 <div align="center">
   
-<h1>Immersion Front-End Alura</h1>
+<h1>Front-End Immersion @Alura</h1>
 </div>
 
 <div>
