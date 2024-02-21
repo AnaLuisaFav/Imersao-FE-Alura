@@ -35,20 +35,15 @@ Starting the server
 
 *<h1>Built with</h1>*
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
+<img alt="Static Badge" src="https://img.shields.io/badge/HTML5-brightgreen?style=flat&logo=html5&logoColor=white&color=%23ec762e"> <img alt="Static Badge" src="https://img.shields.io/badge/CSS_3-brightgreen?style=flat&logo=css3&logoColor=white&color=%232992c9"> <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-brightgreen?style=flat&logo=javascript&logoColor=white&color=%23efd81d">
 
 *<h1>Let's connect?👋</h1>*
 
 <div>
 
-  <a href="https://www.linkedin.com/in/analuisafav">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>  <a href="https://www.frontendmentor.io/profile/AnaLuisaFav" target="_blank">
-    <img src="https://img.shields.io/badge/FEM%20Profile-f8f9f8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor">
-  </a> <a href="https://www.instagram.com/analufav">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a> <a href="mailto:analuisafav@gmail.com">
-    <img src="https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<a href="https://www.linkedin.com/in/analuisafav"><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin-brightgreen?style=flat&logo=linkedin&logoColor=white&color=%230077B5&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fanaluisafav%2F"></a>
+<a href="https://www.instagram.com/analufav"><img alt="Static Badge" src="https://img.shields.io/badge/Instagram-brightgreen?style=flat&logo=instagram&logoColor=white&labelColor=%23eb2dab&color=%23eb2dab&link=https%3A%2F%2Fwww.instagram.com%2Fanalufav%2F"></a>
+<a href="mailto:analuisafav@gmail.com"><img alt="Static Badge" src="https://img.shields.io/badge/Gmail-brightgreen?style=flat&logo=gmail&logoColor=white&color=%23D14836&link=mailto%3Aanaluisafav%40gmail.com"></a>
+<a href="https://www.frontendmentor.io/profile/AnaLuisaFav" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Frontend_Mentor-brightgreen?style=flat&logo=frontend%20mentor&logoColor=white&color=rgb(106%20190%20205)&link=https%3A%2F%2Fwww.twitch.tv%2Fannielugames"></a>
 
 </div>
